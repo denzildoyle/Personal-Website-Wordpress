@@ -57,11 +57,6 @@
 
 			<h2>Reading Material</h2>
 
-			<a href="https://twitter.com/DenzilDoyle" title="Denzil Doyle" id="my-twitter-account">
-				<h3>Denzil Doyle - @DenzilDoyle</h3>
-				<span class="line-arrow">→ </span><p>Passionate problem solver. Entrepreneur. Web and mobile designer/developer. Podcast addict. Mad Scientist. Occasional comedian. Linkedin</p>
-			</a>
-
 			<a href="https://medium.com/@KounterB/making-the-switch-a5e73642c4c3" title="Making the switch">
 				<h3>Making the switch</h3>
 				<span class="line-arrow">→ </span><p>Comments and ideas about Sketch, its place in design, usage and future.</p>
@@ -99,6 +94,11 @@
 			
 			<h2>People to follow</h2>
 
+			<a href="https://twitter.com/DenzilDoyle" title="Denzil Doyle" id="denzildoyle-twitter">
+				<h3>Denzil Doyle - @DenzilDoyle</h3>
+				<span class="line-arrow">→ </span><p>Passionate problem solver. Entrepreneur. Web and mobile designer/developer. Podcast addict. Mad Scientist. Occasional comedian. Linkedin</p>
+			</a>
+			
 			<a href="http://sketchtalk.io/" title="design plus code">
 				<h3>Sketch Talk</h3>
 				<span class="line-arrow">→ </span><p>A sketch forum.</p>
