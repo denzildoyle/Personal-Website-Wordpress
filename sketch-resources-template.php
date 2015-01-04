@@ -2,11 +2,16 @@
 
 <?php get_header(); ?>
     <header class="sub-page">
-    	<div class="title">
-	         <h1><?php echo get_the_title(); ?></h1>
-	        <p>A short list of some of my favorite sketch related resources.</p>   		
+		<div class="title">
+    		<div class="container">
+    			<div class="col-md-8 col-md-offset-2">
+			        <h1><?php echo get_the_title(); ?></h1>
+			        <p>A short list of some of my favorite sketch related resources.</p>   		
+		    	</div>
+    		</div>
     	</div>
     </header>
+    
 	<div class="content-area container ">
 		<div class="col-md-12 page">
 			<h2>Tutorials</h2>

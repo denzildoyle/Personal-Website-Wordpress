@@ -556,6 +556,8 @@ i:hover { color: #fff; }
     .description { margin: 15px 15px; }
     .info { margin: 0 15px; }
     .content-area { margin: 70px 0 0 0; }
+    .sub-page h1{ font-weight: 700; font-size: 44px; line-height: 44px; text-align: left;}
+    .sub-page p{ font-size: 16px; line-height: 18px; text-align: left;}
 }
 
 @media (max-width: 480px) {
