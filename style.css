@@ -11,12 +11,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 */
 
 /* HEADS UP: Everything that you will normally find here can be found in the library/less/wp.less */
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
-@import url(http://fonts.googleapis.com/css?family=Domine:400,700);
-@import url(http://fonts.googleapis.com/css?family=Vollkorn);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,900,800,700,600,300,500,200,100);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 
 * { font-family: 'Lato', 'sans-serif'; }
 
@@ -119,15 +115,17 @@ header.sub-page {
     -o-background-size: cover;
     background-size: cover;
 }
-
-.sub-page{
-    font-family: 'Raleway', sans-serif;
+.sub-page .title{
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+ 
+}
 
+.sub-page h1{
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     letter-spacing: 2px;
     font-size: 70px;
