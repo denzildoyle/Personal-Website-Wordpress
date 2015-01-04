@@ -555,7 +555,7 @@ i:hover { color: #fff; }
     header p { font-weight: 300; }
     .description { margin: 15px 15px; }
     .info { margin: 0 15px; }
-    .content-area { margin: 70px 0 0 0; }
+    .content-area { margin: 70px 0 0 50px; }
     .sub-page h1{ font-weight: 700; font-size: 44px; line-height: 44px; text-align: left;}
     .sub-page p{ font-size: 16px; line-height: 18px; text-align: left;}
 }
@@ -571,7 +571,7 @@ i:hover { color: #fff; }
     i { font-size: 26px; }
     .contact-me h1 { font-size: 2.5em; }
     .contact-me p { font-size: 16px; }
-    .content-area { margin-top: 8%; }
+    .content-area { margin: 10% 0; }
 }
 
 @media (max-width: 991px) {
