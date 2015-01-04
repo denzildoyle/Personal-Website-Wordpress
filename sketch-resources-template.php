@@ -2,15 +2,13 @@
 
 <?php get_header(); ?>
     <header class="sub-page">
-        <h1><?php echo get_the_title(); ?></h1>
+    	<div class="title">
+	         <h1><?php echo get_the_title(); ?></h1>
+	        <p>A short list of some of my favorite sketch related resources.</p>   		
+    	</div>
     </header>
 	<div class="content-area container ">
 		<div class="col-md-12 page">
-			<div class="intro">
-				<h1>Learn Sketch</h1>
-				<p>A short list of some of my favorite sketch related resources.</p>		
-			</div>
-
 			<h2>Tutorials</h2>
 			
 			<a href="https://www.youtube.com/playlist?list=PLLnpHn493BHE6UIsdKYlS5zu-ZYvx22CS" title="design plus code">
@@ -94,11 +92,8 @@
 			
 			<h2>People to follow</h2>
 
-			<a href="https://twitter.com/DenzilDoyle" title="Denzil Doyle" id="denzildoyle-twitter">
-				<h3>Denzil Doyle - @DenzilDoyle</h3>
-				<span class="line-arrow">→ </span><p>Passionate problem solver. Entrepreneur. Web and mobile designer/developer. Podcast addict. Mad Scientist. Occasional comedian. Linkedin</p>
-			</a>
-			
+
+
 			<a href="http://sketchtalk.io/" title="design plus code">
 				<h3>Sketch Talk</h3>
 				<span class="line-arrow">→ </span><p>A sketch forum.</p>
