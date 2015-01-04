@@ -57,6 +57,11 @@
 
 			<h2>Reading Material</h2>
 
+			<a href="https://twitter.com/DenzilDoyle" title="Denzil Doyle" id="my-twitter-account">
+				<h3>Denzil Doyle - @DenzilDoyle</h3>
+				<span class="line-arrow">→ </span><p>Passionate problem solver. Entrepreneur. Web and mobile designer/developer. Podcast addict. Mad Scientist. Occasional comedian. Linkedin</p>
+			</a>
+
 			<a href="https://medium.com/@KounterB/making-the-switch-a5e73642c4c3" title="Making the switch">
 				<h3>Making the switch</h3>
 				<span class="line-arrow">→ </span><p>Comments and ideas about Sketch, its place in design, usage and future.</p>
@@ -147,11 +152,6 @@
 			<a href="https://twitter.com/jm_denis" title="Jean-Marc Denis">
 				<h3>Jean-Marc Denis - @jm_denis</h3>
 				<span class="line-arrow">→ </span><p>Mobile product lead @InboxByGmail @Google. Previously @Sparrow. http://sketchdesign.io  and http://just1.io  author.</p>
-			</a>
-
-			<a href="https://twitter.com/DenzilDoyle" title="Denzil Doyle" id="my-twitter-account">
-				<h3>Denzil Doyle - @DenzilDoyle</h3>
-				<span class="line-arrow">→ </span><p>Passionate problem solver. Entrepreneur. Web and mobile designer/developer. Podcast addict. Mad Scientist. Occasional comedian. Linkedin</p>
 			</a>
 		</div>
 	</div>
