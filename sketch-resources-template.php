@@ -4,7 +4,7 @@
     <header class="sub-page">
 		<div class="title">
     		<div class="container">
-    			<div class="col-md-8 col-md-offset-2">
+    			<div class="col-md-8 col-md-offset-2 col-xs-12">
 			        <h1><?php echo get_the_title(); ?></h1>
 			        <p>A short list of some of my favorite sketch related resources.</p>   		
 		    	</div>
@@ -47,7 +47,14 @@
 				<h3>Sketch Talk</h3>
 				<span class="line-arrow">→ </span><p>A sketch forum.</p>
 			</a>
+
+			<h2>Plugin</h2>
 			
+			<a href="https://github.com/marcisme/sketch-preview" title="Sketch Talk">
+				<h3>Sketch Preview</h3>
+				<span class="line-arrow">→ </span><p>Sketch plugin to preview mockups in Skala Preview a free alternative to Mirror</p>
+			</a>
+
 			<h2>Free Resources</h2>
 
 			<a href="http://www.sketchappsources.com/" title="Sketch App Sources">
