@@ -41,6 +41,11 @@
 				<span class="line-arrow">→ </span><p>Take a peek under the hood to see how computers draw cubic Bézier curves, as used in design and motion graphics programs.</p>
 			</a>
 
+			<a href="https://www.youtube.com/playlist?list=PLjztubQkqVH0CvxTDCeyD-YC0VjFxDW_H" title="Sketch tips by Jean-Marc Denis">
+				<h3>Sketch tips by Jean-Marc Denis</h3>
+				<span class="line-arrow">→ </span><p>A Youtube playlist of Sketch tips by Jean-Marc Denis.</p>
+			</a>
+
 			<h2>Forum</h2>
 			
 			<a href="http://sketchtalk.io/" title="Sketch Talk">
@@ -65,6 +70,11 @@
 			<a href="http://sketchapp.tv/" title="Sketch App TV">
 				<h3>Sketch App TV</h3>
 				<span class="line-arrow">→ </span><p>Free premium Sketch App files. One file a day.</p>
+			</a>
+
+			<a href="http://www.google.com/design/spec/resources/sticker-sheets-icons.html#sticker-sheets-icons-components" title="Sketch App TV">
+				<h3>Google Material Design Components</h3>
+				<span class="line-arrow">→ </span><p>Free Google Material Design components sticker sheet for Sketch.</p>
 			</a>
 
 			<h2>Reading Material</h2>
@@ -106,19 +116,14 @@
 			
 			<h2>People to follow</h2>
 
+			<a href="https://twitter.com/sketchapp" title="sketchapp" id="ga-sketchapp-twitter">
+				<h3>@sketchapp</h3>
+				<span class="line-arrow">→ </span><p>News and Customer Support for Sketch, the designers toolbox.</p>
+			</a>
+
 			<a href="https://twitter.com/sketchapphub" title="sketchtalk" id="ga-sketchtalk-twitter">
 				<h3>@sketchapphub</h3>
-				<span class="line-arrow">→ </span><p>A sketch forum.</p>
-			</a>
-
-			<a href="https://twitter.com/deannnrie" title="Dean Rie" id="ga-dean-rie-twitter">
-				<h3>@deannnrie</h3>
 				<span class="line-arrow">→ </span><p>A community for Sketch users of all skill levels. Exchange your thoughts, links, tips and best practices with other @sketchapp designers and developers.</p>
-			</a>
-
-			<a href="https://twitter.com/Creativedash" title="Creativedash" id="ga-creativedash-twitter">
-				<h3>@Creativedash</h3>
-				<span class="line-arrow">→ </span><p>Creativeda.sh is a digital studio focused on high-end and exceptional creative projects.</p>
 			</a>
 
 			<a href="https://twitter.com/sketchappTV" title="sketchappTV" id="ga-sketchappTV-twitter">
@@ -126,24 +131,44 @@
 				<span class="line-arrow">→ </span><p>Free Sketch 3 Premium Resources. One file a day. (Product Hunt '14)</p>
 			</a>
 
+			<a href="https://twitter.com/sketchcasts" title="SketchCasts" id="ga-sketchCasts-twitter">
+				<h3>@sketchcasts</h3>
+				<span class="line-arrow">→ </span><p>A weekly screencast covering Sketch</p>
+			</a>
+
+			<a href="https://twitter.com/NunoMRocha" title="Nuno Rocha" id="ga-NunoRocha-twitter">
+				<h3>@NunoMRocha</h3>
+				<span class="line-arrow">→ </span><p>Retired hunter, home pizza builder expert, becoming the world strongest CS Agent</p>
+			</a>
+
+			<a href="https://twitter.com/mengto" title="MengTo" id="ga-MengTo-twitter">
+				<h3>@MengTo</h3>
+				<span class="line-arrow">→ </span><p>I design, code and write.</p>
+			</a>
+			
 			<a href="https://twitter.com/rafahari" title="Rafael Conde" id="ga-rafael-conde-twitter">
 				<h3>@rafahari</h3>
 				<span class="line-arrow">→ </span><p>Designer at Imaginary Cloud Co-Founder of SketchCasts.</p>
 			</a>
 
-			<a href="https://twitter.com/sketchcasts" title="SketchCasts" id="ga-sketchCasts-twitter">
-				<h3>@sketchcasts</h3>
-				<span class="line-arrow">→ </span><p>A weekly screencast covering Sketch</p>
+			<a href="https://twitter.com/Creativedash" title="Creativedash" id="ga-creativedash-twitter">
+				<h3>@Creativedash</h3>
+				<span class="line-arrow">→ </span><p>Creativeda.sh is a digital studio focused on high-end and exceptional creative projects.</p>
 			</a>
-			
+
+			<a href="https://twitter.com/iqonicd" title="Ari" id="ga-ari-twitter">
+				<h3>@iqonicd</h3>
+				<span class="line-arrow">→ </span><p>aesthete; designer @sunrise</p>
+			</a>
+
+			<a href="https://twitter.com/deannnrie" title="Dean Rie" id="ga-dean-rie-twitter">
+				<h3>@deannnrie</h3>
+				<span class="line-arrow">→ </span><p>A community for Sketch users of all skill levels. Exchange your thoughts, links, tips and best practices with other @sketchapp designers and developers.</p>
+			</a>
+
 			<a href="https://twitter.com/emanuelsa" title="Emanuel Sá" id="ga-emanuel-sa-twitter">
 				<h3>@emanuelsa</h3>
 				<span class="line-arrow">→ </span><p>The toolbox at @bohemiancoding</p>
-			</a>
-
-			<a href="https://twitter.com/sketchapphub" title="Sketch Talk" id="ga-skecth-talk-twitter">
-				<h3>@sketchapphub</h3>
-				<span class="line-arrow">→ </span><p>A community for Sketch users of all skill levels. Exchange your thoughts, links, tips and best practices with other @sketchapp designers and developers.</p>
 			</a>
 
 			<a href="https://twitter.com/philippehong" title="Philippe HONG" id="ga-philippe-hong-twitter">

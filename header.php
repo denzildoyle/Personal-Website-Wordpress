@@ -12,8 +12,8 @@
 
   		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
         <!-- TO DO: get blog title -->
-        <title><?php wp_title( '|', true, 'right' ); ?></title>	
-        <!-- <title>Denzil Doyle - Development & Design</title> -->
+        <title><?php if (wp_title('-','true','right') == ""){ echo "Denzil Doyle - Development & Design"; } ?></title>
+        <!-- <title></title> -->
 
 
 		<!-- IE8 fallback moved below head to work properly. Added respond as well. Tested to work. -->
@@ -78,18 +78,7 @@
         <meta name="boitho.com-dc" content="index, follow" />
         <meta name="sohu-search" content="index, follow" />
 	
-        <!-- Google Analytics -->
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-38539184-5', 'denzildoyle.me');
-            ga('send', 'pageview');
-        </script>
-        <!-- End Google Analytics -->
-
+        <?php wp_head(); ?>
 	</head>
 
 	<body class="<?php echo body_class(); ?>">

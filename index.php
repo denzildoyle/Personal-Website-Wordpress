@@ -38,7 +38,7 @@
 
         <div class="container-fluid project">
             <div class="col-md-8 col-md-offset-2">
-                <img src="<?php bloginfo('template_url'); ?>/img/projects/pizza-hut-tnt.jpg" class="center-block img-responsive" alt="">
+                <a href="http://www.pizzahut-tt.com/" id="ga-img-pizza-hut"><img src="<?php bloginfo('template_url'); ?>/img/projects/pizza-hut-tnt.jpg" class="center-block img-responsive" alt="pizza hut website"></a>
             </div>
         </div>
         <div class="social-section">
@@ -56,7 +56,7 @@
 
         <div class="container-fluid project">
             <div class="col-md-8 col-md-offset-2">
-                <img src="<?php bloginfo('template_url'); ?>/img/projects/graham-trainer-website.jpg" class="center-block img-responsive" alt="">
+                <a href="https://www.grahamtt.azurewebsites.net" id="ga-img-graham-the-trainer"><img src="<?php bloginfo('template_url'); ?>/img/projects/graham-trainer-website.jpg" class="center-block img-responsive" alt="graham the trainer website"></a>
             </div>              
         </div>
         <div class="social-section">
@@ -75,7 +75,7 @@
 
     <div class="container-fluid project">
             <div class="col-md-8 col-md-offset-2">
-                <img src="<?php bloginfo('template_url'); ?>/img/projects/location-scout.jpg" class="center-block img-responsive" alt="">
+                <a href="http://locationscout.apsolute-tt.com/" id="ga-img-locationscout"><img src="<?php bloginfo('template_url'); ?>/img/projects/location-scout.jpg" class="center-block img-responsive" alt="location scout website"></a>
             </div>              
         </div>
         <div class="social-section">
