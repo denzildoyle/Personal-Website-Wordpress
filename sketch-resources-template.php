@@ -193,4 +193,16 @@
 		</div>
 	</div>
 
+<!-- 	<div class="container connect">
+		<div class="col-md-4">
+			<a href=""><img src="<?php bloginfo('template_url'); ?>/img/twitter.jpg" class="img-responsive center-block" alt="follow me on twitter"></a>
+		</div>
+		<div class="col-md-4">	
+			<a href=""><img src="<?php bloginfo('template_url'); ?>/img/medium.jpg" class="img-responsive center-block" alt="connect with me on medium"></a>
+		</div>
+		<div class="col-md-4">
+			<a href=""><img src="<?php bloginfo('template_url'); ?>/img/github.jpg" class="img-responsive center-block" alt="follow me on git hub"></a>
+		</div>
+	</div> -->
+
 <?php get_footer(); ?>
