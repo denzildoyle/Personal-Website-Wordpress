@@ -1,17 +1,23 @@
 <?php // Template Name: Blog ?>
 
 <?php get_header(); ?>
-    <header class="sub-page">
-		<div class="title">
-    		<div class="container">
-    			<div class="col-md-8 col-md-offset-2 col-xs-12">
-			        <h1><?php echo get_the_title(); ?></h1>
-		    	</div>
-    		</div>
-    	</div>
-    </header>
+<style>
+	.bg-header-blog{
+		background: red;
+		width: 100%;
+		height: 100%;
+	}
+</style>
+<div class="col-md-9">
+
+	<div class="bg-header-blog">
+		<h1><?php echo get_the_title(); ?></h1>
+	</div>
     
-	<div class="content-area container ">
+</div>
+
+    
+<!-- 	<div class="content-area container ">
 		<div class="col-md-12 page">
 		<?php
 		    $args = array('post_type' => 'post');
@@ -27,5 +33,20 @@
 			}
 		?>
 		</div>
-	</div>
-<?php get_footer(); ?>
+	</div> -->
+
+        <!-- JavaScript plugins comes here -->
+        <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.27/angular.min.js"></script>
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <!--[if lt IE 7 ]>
+            <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+            <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+        <![endif]-->
+        
+        <?php wp_footer(); // js scripts are inserted using this function ?>
+    </body>
+</html>

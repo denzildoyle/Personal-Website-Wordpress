@@ -1,16 +1,20 @@
 <?php get_header(); ?>
     <header class="main-page">
         <div class="layer">
-            <div class="container">
-                <div class="col-xs-12">
-                    <a href="#"><img class="logo img-circle" src="<?php bloginfo('template_url'); ?>/img/logo.jpg"></a>
-                </div>
-            </div>
             <div class="container bio">
-                <div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1"  id="about-me">
-                    <p>Hello, I’m <b>Denzil Doyle</b> I create handcrafted user centered experiences for both web and mobile.</p>
+                <div class="col-md-8">
+                    <div>
+                        <h6><em>Designer &amp; Developer</em></h6>
+                        <h2>Denzil Doyle</h2>
+                    </div>
+                    <div id="about-me" class="details">
+                        <h1><em>UI/UX Designer, Developer</em></h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate incidunt doloribus repellat quaerat nemo suscipit officia temporibus, molestiae nihil nisi sint tempore corporis optio provident? Qui natus facilis quas hic.</p>
+                    </div>   
                 </div>
-                <div class="col-md-12 skills" id="skills">
+
+
+<!--                 <div class="col-md-12 skills" id="skills">
                     <div class="col-xs-4 clear">
                         <img src="<?php bloginfo('template_url'); ?>/img/web.svg" class="center-block img-responsive">
                         <h4>Web Development</h4>
@@ -23,7 +27,7 @@
                         <img src="<?php bloginfo('template_url'); ?>/img/ui.svg" class="center-block img-responsive">
                         <h4>UI Design</h4>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </header>
