@@ -20,8 +20,15 @@ html, body {
     width: 100%; 
     height: 100%; 
 }
-
+::selection {
+  background: #D9C6F5; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #D9C6F5; /* Gecko Browsers */
+}
 h1,h2,h3,h4,h5,h6,p { color: #333; }
+em{color: #E4259B;}
+h1 em {font-style: normal;}
 
 .small a:hover { cursor: pointer;}
 
@@ -73,15 +80,15 @@ p {
 
 header h1, header h2, header h4, header h5, header h6 { 
     color: #fff; 
-    text-align: center; 
+    /*text-align: center; */
 }
 
 header p { 
-    font-size: 30px; 
+    font-size: 18px; 
     color: #FFFFFF; 
-    line-height: 38px; 
-    font-weight: 200;  
-    text-align: center;
+    line-height: 24px;
+    letter-spacing: .5px;
+    font-weight: 300;
 }
 
 header .icon { 
@@ -99,12 +106,26 @@ header p b { font-weight: 400; }
 header hr { width: 40px; }
 
 header.main-page { 
-    width: 100%; height: 95%;
+    width: 100%; height: 96%;
     background: url("img/bg-img.jpg") no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.layer {
+    padding: 30px 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(18, 35, 45, .7); /* Old browsers */
+    background: -moz-linear-gradient(45deg,  rgba(38, 28, 29, 0.95) 2%, rgba(33, 25, 36, 0.95) 98%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(38, 28, 29, 0.95) 2%, color-stop(96%,rgba(33, 25, 36, 0.95) 98%))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg,  rgba(38, 28, 29, 0.95) 2%,rgba(33, 25, 36, 0.95) 98%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg,  rgba(38, 28, 29, 0.95) 2%,rgba(33, 25, 36, 0.95) 98%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg,  rgba(38, 28, 29, 0.95) 2%,rgba(33, 25, 36, 0.95) 98%); /* IE10+ */
+    background: linear-gradient(45deg,  rgba(38, 28, 29, 0.95) 2%,rgba(33, 25, 36, 0.95) 98%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='rgba(229, 116, 45, .6)',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 header.sub-page { 
@@ -114,6 +135,11 @@ header.sub-page {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.details{
+    display: block;
+    margin-top: 40%;
 }
 .sub-page .title{
     position: relative;
@@ -188,9 +214,21 @@ header .logo{
 }
 
 .bio {
-    position: relative;
-    top: 15%;
+    margin-top: 20px;
 }
+.bio h6{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.bio h2{
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+.bio h1{
+    font-weight: 700;
+}
+
 .twitter-cover{
     width: 100%;
     height: 100%;
@@ -219,16 +257,7 @@ header .logo{
 }
 
 header .main-page .layer {
-    width: 100%;
-    height: 100%;
-    background: rgba(18, 35, 45, .7); /* Old browsers */
-    background: -moz-linear-gradient(45deg,  rgba(18, 35, 45, .8) 0%, rgba(102, 235, 167, .9) 96%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(46, 57, 70, .8)), color-stop(96%,rgba(41, 17, 24, .9))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(45deg,  rgba(18, 35, 45, .8) 0%,rgba(41, 17, 24, .9) 96%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(45deg,  rgba(18, 35, 45, .8) 0%,rgba(41, 17, 24, .9) 96%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(45deg,  rgba(18, 35, 45, .8) 0%,rgba(41, 17, 24, .9) 96%); /* IE10+ */
-    background: linear-gradient(45deg,  rgba(18, 35, 45, .8) 0%,rgba(41, 17, 24, .9) 96%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='rgba(229, 116, 45, .6)',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    
 }
 
 header h1 {
@@ -481,18 +510,6 @@ i:hover { color: #fff; }
     margin: 0;
     line-height: 30px;
     color: #fff;
-}
-
-.layer {
-    padding: 30px 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(18, 35, 45, .7); /* Old browsers */
-    background: -moz-linear-gradient(133deg, rgba(44,9,70,.75) 2%, #3E0606 98%);
-    background: -webkit-linear-gradient(133deg, rgba(44,9,70,.75) 2%, rgba(62,6,6,.75) 98%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(223deg, rgba(44,9,70,.75) 2%, rgba(62,6,6,.75) 98%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(133deg, rgba(44,9,70,.75) 2%, rgba(62,6,6,.75) 98%); /* IE10+ */
-    background: linear-gradient(223deg, rgba(44,9,70,.75) 2%, rgba(62,6,6,.75) 98%); /* W3C */
 }
 
 .twitter-logo { margin-top: 15px; }
