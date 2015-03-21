@@ -12,6 +12,8 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate incidunt doloribus repellat quaerat nemo suscipit officia temporibus, molestiae nihil nisi sint tempore corporis optio provident? Qui natus facilis quas hic.</p>
                     </div>   
                 </div>
+
+
 <!--                 <div class="col-md-12 skills" id="skills">
                     <div class="col-xs-4 clear">
                         <img src="<?php bloginfo('template_url'); ?>/img/web.svg" class="center-block img-responsive">
@@ -29,7 +31,6 @@
             </div>
         </div>
     </header>
-
     <div class="content-area" id="work">
         <div class="container heading">
             <div class="col-md-4 col-md-offset-4">
@@ -37,10 +38,42 @@
                 <p>Some of the work I have done both personally and professionally</p>
             </div> 
         </div>
+    </div>
+  
+    <div class="row clear">
+        <div class="col-md-6 clear">
+            <a href="http://www.pizzahut-tt.com/" id="ga-pizza-hut-img"><img src="<?php bloginfo('template_url'); ?>/img/projects/pizza-hut-tnt.jpg" class="center-block img-responsive" alt="pizza hut website" style="width: 100%; heigth: 100%;"></a>
+        </div>
+        <div class="col-md-6 clear">
+            <a href="https://www.grahamtt.azurewebsites.net"><img src="<?php bloginfo('template_url'); ?>/img/projects/graham-trainer-website.jpg" class="center-block img-responsive" alt="graham the trainer website"></a>
+        </div>
+        <div class="col-md-6 clear">
+            <a href="http://locationscout.apsolute-tt.com/"><img src="<?php bloginfo('template_url'); ?>/img/projects/location-scout.jpg" class="center-block img-responsive" alt="location scout website"></a>
+        </div>
+<!--         <div class="col-md-6 clear">
+            <a href="http://locationscout.apsolute-tt.com/"><img src="<?php bloginfo('template_url'); ?>/img/projects/location-scout-mobile-app.png" class="center-block img-responsive" alt="location scout website"></a>
+        </div> -->
+        <div class="col-md-6 clear">
+            <a href="http://locationscout.apsolute-tt.com/"><img src="<?php bloginfo('template_url'); ?>/img/projects/usc-football-team.jpg" class="center-block img-responsive" alt="location scout website"></a>
+        </div> 
+            <div class="col-md-6 clear grid">
+                    <figure class="effect-lily">
+                        <img src="<?php bloginfo('template_url'); ?>/img/projects/usc-football-team.jpg" class="center-block img-responsive" alt="location scout website">
+                        <figcaption>
+                            <div>
+                                <h2>Nice <span>Lily</span></h2>
+                                <p>Lily likes to play with crayons and pencils</p>
+                            </div>
+                            <a href="#">View more</a>
+                        </figcaption>           
+                    </figure>
+                </div>     
+    </div>
 
-        <div class="container-fluid project">
+
+<!--         <div class="container-fluid project">
             <div class="col-md-8 col-md-offset-2">
-                <a href="http://www.pizzahut-tt.com/" id="ga-pizza-hut-img"><img src="<?php bloginfo('template_url'); ?>/img/projects/pizza-hut-tnt.jpg" class="center-block img-responsive" alt="pizza hut website"></a>
+                
             </div>
         </div>
         <div class="social-section">
@@ -58,7 +91,7 @@
 
         <div class="container-fluid project">
             <div class="col-md-8 col-md-offset-2">
-                <a href="https://www.grahamtt.azurewebsites.net" id="ga-graham-the-trainer-img"><img src="<?php bloginfo('template_url'); ?>/img/projects/graham-trainer-website.jpg" class="center-block img-responsive" alt="graham the trainer website"></a>
+                
             </div>              
         </div>
         <div class="social-section">
@@ -77,7 +110,7 @@
 
     <div class="container-fluid project">
             <div class="col-md-8 col-md-offset-2">
-                <a href="http://locationscout.apsolute-tt.com/" id="ga-locationscout-img"><img src="<?php bloginfo('template_url'); ?>/img/projects/location-scout.jpg" class="center-block img-responsive" alt="location scout website"></a>
+                
             </div>              
         </div>
         <div class="social-section">
@@ -92,7 +125,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="tweet-container container" ng-app="myApp" ng-controller="FeedCtrl">
         <div class="col-md-4 col-md-offset-4 col-xs-10 col-xs-offset-1 tweet">   
