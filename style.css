@@ -16,9 +16,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 
 * { font-family: 'Lato', 'sans-serif'; }
 
-html, body { 
-    width: 100%; 
-    height: 100%; 
+html, body {
+    width: 100%;
+    height: 100%;
 }
 ::selection {
   background: #D9C6F5; /* WebKit/Blink Browsers */
@@ -31,7 +31,7 @@ em{color: #F17D0D; font-style: normal;}
 
 .small a:hover { cursor: pointer;}
 
-p { 
+p {
     line-height: 28px;
     font-size: 18px;
     font-weight: 300;
@@ -64,7 +64,7 @@ p {
     cursor: pointer;
 }
 
-.tweet p{ 
+.tweet p{
     font-size: 20px;
 }
 
@@ -77,26 +77,26 @@ p {
 .clear-fix { clear: both; }
 .small { font-size: 14px; }
 
-header h1, header h2, header h4, header h5, header h6 { 
-    color: #fff; 
+header h1, header h2, header h4, header h5, header h6 {
+    color: #fff;
     /*text-align: center; */
 }
 
-header p { 
-    font-size: 18px; 
-    color: #FFFFFF; 
+header p {
+    font-size: 18px;
+    color: #FFFFFF;
     line-height: 24px;
     letter-spacing: .5px;
     font-weight: 300;
 }
 
-header .icon { 
-    font-size: 130px; 
+header .icon {
+    font-size: 130px;
     text-align: center;
-    display: block; 
-    margin: 0; 
-    padding: 0; 
-    line-height: 0; 
+    display: block;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
     color: #fff;
 }
 
@@ -104,9 +104,9 @@ header p b { font-weight: 400; }
 
 header hr { width: 40px; }
 
-header.main-page { 
+header.main-page {
     width: 100%; height: 96%;
-    background: url("img/bg-img.jpg") no-repeat center center; 
+    background: url("img/bg-img.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -127,9 +127,9 @@ header.main-page {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='rgba(229, 116, 45, .6)',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
-header.sub-page { 
+header.sub-page {
     width: 100%; height: 40%;
-    background: url("img/bg-sub-page.jpg") no-repeat center center; 
+    background: url("img/bg-sub-page.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -146,7 +146,7 @@ header.sub-page {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
- 
+
 }
 
 .sub-page h1{
@@ -156,7 +156,7 @@ header.sub-page {
     font-size: 70px;
     margin: 0;
     padding: 0;
-} 
+}
 .page .intro{
     margin-bottom: 50px;
 }
@@ -234,7 +234,7 @@ header .logo{
 .display-img{
     width: 100%;
     height: 400px;
-    background: url("img/bg-img.jpg") no-repeat center center; 
+    background: url("img/bg-img.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -242,7 +242,7 @@ header .logo{
 }
 
 header .main-page .layer {
-    
+
 }
 
 header h1 {
@@ -275,7 +275,7 @@ blockquote p {
 
 .share-btns {
     width: 80px;
-    margin-top: 15px; 
+    margin-top: 15px;
     display: block;
 }
 
@@ -332,13 +332,13 @@ blockquote p {
     cursor: pointer;
 
 }
- 
+
 .arrow:hover {
     border: 2px solid rgba(255, 255, 255, 0.6);
     border-left: 0;
     border-top: 0;
 }
- 
+
 .animation-small-bounce {
     -webkit-animation: small-bounce 500ms linear infinite;
     -webkit-animation-name: small-bounce;
@@ -660,7 +660,6 @@ figure.effect-lily:hover img,
 figure.effect-lily:hover p {
     opacity: 1;
 }
-
 
 figure.effect-lily:hover img,
 figure.effect-lily:hover h2,
