@@ -27,7 +27,7 @@ html, body {
   background: #D9C6F5; /* Gecko Browsers */
 }
 h1,h2,h3,h4,h5,h6,p { color: #333; }
-em{color: #E2BC1E; font-style: normal;}
+em{color: #F17D0D; font-style: normal;}
 
 .small a:hover { cursor: pointer;}
 
@@ -442,29 +442,21 @@ blockquote p {
 }
 
 .contact-me p {
-    text-align: right;
     color: #BDC3C7;
     font-size: 18px;
     margin-top: 12px;
     font-weight: 300;
 }
 
-.info {
-    margin-right: 0px;
-    padding-right: 0px;
-}
-
 .email {
     margin-top: 20px;
     font-size: 40px;
     font-weight: 400px;
-    color: #E2BC1E;
-    text-align: right;
-    float: right;
+    color: #F17D0D;
 }
 
 .email:hover {
-    color: #20dda5;
+    color: #FF9800;
     text-decoration: none;
     -webkit-transition: 1s;
     -moz-transition: 1s;

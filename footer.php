@@ -1,22 +1,18 @@
         <footer class="contact-me">
             <div class="layer">
                 <div class="container">
-                    <div class="col-md-6 pull-right info">
-                        <div class="pull-right">
-                            <div class="pull-right social-icons">
-                                <a href="https://dribbble.com/DenzilDoyle"><i class="icon-dribbble"></i></a>
-                                <a href="https://twitter.com/DenzilDoyle"><i class="icon-twitter-squared"></i></a>
-                                <a href="https://www.facebook.com/Doyley3"><i class="icon-facebook-squared"></i></a>
-                                <a href="http://www.linkedin.com/profile/view?id=117638015&trk=spm_pic"><i class="icon-linkedin-squared"></i></a>
-                                <a href="https://github.com/denzildoyle"><i class="icon-github-squared"></i></a>
-                                <a href="http://instagram.com/denzildoyle"><i class="icon-instagramm"></i></a>              
-                            </div>
-                            <div class="pull-right">
-                                <h1 class="text-right">Get in touch with me</h1>
-                                <p class="text-right">Always willing to help or chat about web design and development. Just drop me a line and I will get back to you as soon as possible.</p>
-                                <a href="mailto:doyle.d@apsolute-tt.com" class="text-right email">yell@denzildoyle.me</a>
-                            </div>
+                    <div class="col-md-8">
+                        <div class=" social-icons">
+                            <a href="https://dribbble.com/DenzilDoyle"><i class="icon-dribbble"></i></a>
+                            <a href="https://twitter.com/DenzilDoyle"><i class="icon-twitter-squared"></i></a>
+                            <a href="https://www.facebook.com/Doyley3"><i class="icon-facebook-squared"></i></a>
+                            <a href="http://www.linkedin.com/profile/view?id=117638015&trk=spm_pic"><i class="icon-linkedin-squared"></i></a>
+                            <a href="https://github.com/denzildoyle"><i class="icon-github-squared"></i></a>
+                            <a href="http://instagram.com/denzildoyle"><i class="icon-instagramm"></i></a>              
                         </div>
+                        <h1>Get in touch with me</h1>
+                        <p>Always willing to help or chat about web design and development. Just drop me a line and I will get back to you as soon as possible.</p>
+                        <a href="mailto:doyle.d@apsolute-tt.com" class="email">yell@denzildoyle.me</a>
                     </div>
                 </div>           
             </div>
