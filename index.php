@@ -8,8 +8,8 @@
                         <h2>Denzil Doyle</h2>
                     </div>
                     <div id="about-me" class="details">
-                        <h1><em>UI/UX Designer, Developer</em></h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate incidunt doloribus repellat quaerat nemo suscipit officia temporibus, molestiae nihil nisi sint tempore corporis optio provident? Qui natus facilis quas hic.</p>
+                        <h1><em>UI/UX Designer &amp; Developer</em></h1>
+                        <p>I create handcrafted user-centered experiences for both web and mobile. I am also a Autodidact // Polymath // Problem Solver // Web and Mobile UI/UX Designer - <em><a href="http://bohemiancoding.com/sketch/">Sketch</a></em> // Front-End Developer // Podcast Addict // Mad Scientist and Occasional comedian. Get sense of my accedemic and real word experence on <em><a href="https://www.linkedin/in/denzildoyle.com">Linkedin.</a></em></p>
                     </div>
                 </div>
             </div>

@@ -27,9 +27,11 @@ html, body {
   background: #D9C6F5; /* Gecko Browsers */
 }
 h1,h2,h3,h4,h5,h6,p { color: #333; }
-em{color: #F17D0D; font-style: normal;}
-
-.small a:hover { cursor: pointer;}
+em{ color: #F17D0D; font-style: normal; }
+em a{ font-weight: 400; color: #F17D0D; }
+a { color: #700993; }
+a:hover, .small a:hover { cursor: pointer; color: #4D0465; text-decoration: none; }
+a:focus{ color: #700993; text-decoration: none; }
 
 p {
     line-height: 28px;
@@ -195,14 +197,14 @@ header.single-page {
     font-weight: 500;
     font-size: 30px;
     margin: 40px 0 25px 0;
-    color: #700993;
+    color: #F17D0D;
 }
 
-.page a{
+.list a{
     margin-bottom: 20px;
     display: block;
 }
-.page a:visited p{
+.list a:visited p{
     color: rgb(119, 27, 134);
 }
 
@@ -228,7 +230,17 @@ header.single-page {
     text-decoration: underline;
     cursor: pointer;
 }
+.page img{
+    width: 100%;
+    display: block;
+    margin-top: 50px;
+}
 
+.page i{
+    color: #333;
+    font-style: italic;
+    font-size: 18px;
+}
 header .logo{
     float: left;
     width: 55px;
@@ -696,6 +708,16 @@ figure.effect-lily:hover p {
 
 .grid figure:hover{
     background: rgba(0,0,0,1);
+}
+
+.tags{
+    padding: 0;
+}
+.tags li{
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+    text-transform: uppercase;
 }
 /*RESPONSIVE STYLES*/
 

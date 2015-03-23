@@ -2,20 +2,22 @@
 
 <?php get_header(); ?>
     <header class="sub-page">
-		<div class="title">
-    		<div class="container">
-    			<div class="col-md-8 col-md-offset-2 col-xs-12">
-			        <h1><?php echo get_the_title(); ?></h1>
-			        <p>A short list of some of my favorite sketch related resources.</p>   		
-		    	</div>
-    		</div>
-    	</div>
+    	<div class="layer">
+			<div class="title">
+	    		<div class="container">
+	    			<div class="col-md-8 col-md-offset-2 col-xs-12">
+				        <h1><?php echo get_the_title(); ?></h1>
+				        <p>A short list of some of my favorite sketch related resources.</p>
+			    	</div>
+	    		</div>
+	    	</div>
+	    </div>
     </header>
-    
+
 	<div class="content-area container ">
-		<div class="col-md-12 page">
+		<div class="col-md-12 list page">
 			<h2>Tutorials</h2>
-			
+
 			<a href="https://www.youtube.com/playlist?list=PLLnpHn493BHE6UIsdKYlS5zu-ZYvx22CS" title="design plus code">
 				<h3>Sketch 3 Tutorials</h3>
 				<span class="line-arrow">→ </span><p>Learning the basics of Sketch</p>
@@ -47,14 +49,14 @@
 			</a>
 
 			<h2>Forum</h2>
-			
+
 			<a href="http://sketchtalk.io/" title="Sketch Talk">
 				<h3>Sketch Talk</h3>
 				<span class="line-arrow">→ </span><p>A sketch forum.</p>
 			</a>
 
 			<h2>Plugin</h2>
-			
+
 			<a href="https://github.com/marcisme/sketch-preview" title="Sketch Talk">
 				<h3>Sketch Preview</h3>
 				<span class="line-arrow">→ </span><p>Sketch plugin to preview mockups in Skala Preview a free alternative to Mirror</p>
@@ -98,7 +100,7 @@
 				<h3>What is new in Sketch 3</h3>
 				<span class="line-arrow">→ </span><p>Everything you asked for and more</p>
 			</a>
-			
+
 			<a href="https://medium.com/google-design/sketch-tutorial_01-b76271a095e3" title="Sketch Tutorial_01">
 				<h3>Sketch Tutorial_01</h3>
 				<span class="line-arrow">→ </span><p>Colorful switch</p>
@@ -108,12 +110,12 @@
 				<h3>Sketch Shortcuts</h3>
 				<span class="line-arrow">→ </span><p>A list of Keyboard Shortcuts</p>
 			</a>
-	
+
 			<a href="https://medium.com/sketch-app/mastering-the-bezier-curve-in-sketch-4da8fdf0dbbb" title="Mastering the Bézier Curve in Sketch">
 				<h3>Mastering the Bézier Curve in Sketch</h3>
 				<span class="line-arrow">→ </span><p>Break through the confusion and start making beautifully curved vector shapes.</p>
-			</a>		
-			
+			</a>
+
 			<h2>People to follow</h2>
 
 			<a href="https://twitter.com/sketchapp" title="sketchapp" id="ga-sketchapp-twitter">
@@ -145,7 +147,7 @@
 				<h3>@MengTo</h3>
 				<span class="line-arrow">→ </span><p>I design, code and write.</p>
 			</a>
-			
+
 			<a href="https://twitter.com/rafahari" title="Rafael Conde" id="ga-rafael-conde-twitter">
 				<h3>@rafahari</h3>
 				<span class="line-arrow">→ </span><p>Designer at Imaginary Cloud Co-Founder of SketchCasts.</p>
@@ -197,7 +199,7 @@
 		<div class="col-md-4">
 			<a href=""><img src="<?php bloginfo('template_url'); ?>/img/twitter.jpg" class="img-responsive center-block" alt="follow me on twitter"></a>
 		</div>
-		<div class="col-md-4">	
+		<div class="col-md-4">
 			<a href=""><img src="<?php bloginfo('template_url'); ?>/img/medium.jpg" class="img-responsive center-block" alt="connect with me on medium"></a>
 		</div>
 		<div class="col-md-4">
