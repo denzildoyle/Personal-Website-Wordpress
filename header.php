@@ -4,29 +4,23 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-		<!-- TO DO: get blog desctiption -->
-        <meta name="description" content="<?php echo get_bloginfo('description'); ?>" /> 
         <meta name="keywords" content="Apsolute, Trinidad Tobago Windows Phone Development, Trinidad Tobago Web development, Trinidad Tobago Website Development, Trinidad Tobago Software Development, TrinidadTobago App Development, Trinidad Tobago, Mobile Application development, Trinidad Tobago app development, Trinidad Tobago SEO, Trinidad, Tobago, Denzil Doyle, TnT, Developer, Dev, Apsolute, mobile, graphic design, CSS, HTML, PHP.">
         <meta name="author" content="Denzil Doyle">
 
-
   		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-        <!-- TO DO: get blog title -->
         <title><?php if (wp_title('-','true','right') == ""){ echo "Denzil Doyle - Development & Design"; } ?></title>
-        <!-- <title></title> -->
-
 
 		<!-- IE8 fallback moved below head to work properly. Added respond as well. Tested to work. -->
 			<!-- media-queries.js (fallback) -->
 		<!--[if lt IE 9]>
-			<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>			
+			<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 		<![endif]-->
 
 		<!-- html5.js -->
 		<!--[if lt IE 9]>
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->	
-		
+		<![endif]-->
+
 			<!-- respond.js -->
 		<!--[if lt IE 9]>
 		          <script type='text/javascript' src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
@@ -58,18 +52,9 @@
 		<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>img/favicon.png">
 
 	    <meta name="viewport" content="width=device-width">
-	    <meta name="generator" content="Anchor CMS">
-
-        <meta name="og:title" content="The best web and mobile developer in Trinidad and Tobago.">
-        <meta name="og:image" content="img/og.jpg">
-        <meta name="og:type" content="website">
-        <meta name="og:url" content="www.denzildoyle.me">
-        <meta name="og:site_name" content="denzildoyle.me">
-        <meta name="og:description" content="Passionate problem solver. Entrepreneur. Web and mobile designer/developer. Podcast addict. PHP advocate. Social networking guru. Mad Scientist. Footballer. Occasional comedian.">
-        <!-- <meta name="fb:app_id" content=""> -->
 
         <meta name="robots" content="index, follow" />
-        <meta name="googlebot" content="index, follow" />  
+        <meta name="googlebot" content="index, follow" />
         <meta name="bingbot" content="index, follow" />
         <meta name="yahoo-verticalcrawler" content="index, follow" />
         <meta name="yahoo! slurp" content="index, follow" />
@@ -77,7 +62,7 @@
         <meta name="scooter" content="index, follow" />
         <meta name="boitho.com-dc" content="index, follow" />
         <meta name="sohu-search" content="index, follow" />
-	
+
         <?php wp_head(); ?>
 	</head>
 
