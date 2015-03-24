@@ -8,7 +8,7 @@
         <meta name="author" content="Denzil Doyle">
 
   		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-        <title><?php wp_title(''); ?>/title>
+        <!-- <title><?php wp_title(''); ?>/title> -->
 
 		<!-- IE8 fallback moved below head to work properly. Added respond as well. Tested to work. -->
 			<!-- media-queries.js (fallback) -->
