@@ -81,7 +81,6 @@ p {
 
 header h1, header h2, header h4, header h5, header h6 {
     color: #fff;
-    /*text-align: center; */
 }
 
 header p {
@@ -107,7 +106,7 @@ header p b { font-weight: 400; }
 header hr { width: 40px; }
 
 header.main-page {
-    width: 100%; height: 96%;
+    width: 100%; height: 95%;
     background: url("img/bg-img.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
