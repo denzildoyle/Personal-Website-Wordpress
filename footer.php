@@ -12,7 +12,7 @@
                         </div>
                         <h1>Get in touch with me</h1>
                         <p>Always willing to help or chat about web design and development. Just drop me a line and I will get back to you as soon as possible.</p>
-                        <a href="mailto:doyle.d@apsolute-tt.com" class="email">yell@denzildoyle.me</a>
+                        <a href="mailto:doyle.d@apsolute-tt.com" class="email pull-left">yell@denzildoyle.me</a>
                     </div>
                 </div>
             </div>
