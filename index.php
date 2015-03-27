@@ -9,7 +9,8 @@
                     </div>
                     <div id="about-me" class="details">
                         <h1><em>UI/UX Designer &amp; Developer</em></h1>
-                        <p>I create handcrafted user-centered experiences for both web and mobile. I am also a Autodidact // Polymath // Problem Solver // Web and Mobile UI/UX Designer - <em><a href="http://bohemiancoding.com/sketch/">Sketch</a></em> // Front-End Developer // Podcast Addict // Mad Scientist and Occasional comedian. Get sense of my accedemic and real word experence on <em><a href="https://www.linkedin/in/denzildoyle.com">Linkedin.</a></em></p>
+                        <p class="desktop">I create handcrafted user-centered experiences for both web and mobile. I am also a Autodidact // Polymath // Problem Solver // Web and Mobile UI/UX Designer - <em><a href="http://bohemiancoding.com/sketch/">Sketch</a></em> // Front-End Developer // Podcast Addict // Mad Scientist and Occasional comedian. Get sense of my accedemic and real word experence on <em><a href="https://www.linkedin/in/denzildoyle.com">Linkedin.</a></em></p>
+                        <p class="mobile">I create handcrafted user-centered experiences for both web and mobile. Get sense of my accedemic and real word experence on <em><a href="https://www.linkedin/in/denzildoyle.com">Linkedin.</a></em></p>
                     </div>
                 </div>
             </div>
