@@ -1,4 +1,4 @@
-mo/*
+/*
 Theme Name: wp-bootstrap
 Theme URI: http://320press.com/wpbs
 Description: A simple responsive theme based on the Bootstrap framework. Includes multiple page templates, two different sidebars and a theme options panel.
@@ -203,8 +203,8 @@ header.single-page {
     margin-bottom: 20px;
     display: block;
 }
-.list a:visited p{
-    color: rgb(119, 27, 134);
+.list a:visited p, .list a:visited h3{
+    color: #609;
 }
 
 .page h3{
@@ -225,7 +225,6 @@ header.single-page {
     text-decoration: none;
 }
 .page a p:hover{
-    color: #333;
     text-decoration: underline;
     cursor: pointer;
 }

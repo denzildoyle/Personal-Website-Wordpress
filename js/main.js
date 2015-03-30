@@ -130,7 +130,7 @@ var disqus_shortname = 'denzildoyleme';
     }
 }(document,"script","twitter-wjs");
 
-//animation 
+//animation
 $(function() {
     $('#about-me').addClass('animated fadeInUp');
     $('#skills').addClass('animated fadeInDown');
@@ -139,7 +139,8 @@ $(function() {
 
 
 $(function() {
-	//get instagram photos from my account 
+	var i = 2;
+	//get instagram photos from my account
 	var userFeed = new Instafeed({
 	    get: 'user',
 	    userId: 14494070,
@@ -156,7 +157,7 @@ angular.module('myApp', []);
 function FeedCtrl($scope, $timeout,$http) {
     // set default message here
     // $scope.data = "";
-  
+
     var feed = function() {
 		$http.get('https://twitter-web-service.azurewebsites.net/twitter').
 		  success(function(data) {
@@ -167,6 +168,6 @@ function FeedCtrl($scope, $timeout,$http) {
 		});
 		$timeout(feed, 30000);
     }
-    
+
     $timeout(feed, 1000);
 }
