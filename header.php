@@ -4,7 +4,6 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-        <meta name="keywords" content="Apsolute, Trinidad Tobago Windows Phone Development, Trinidad Tobago Web development, Trinidad Tobago Website Development, Trinidad Tobago Software Development, TrinidadTobago App Development, Trinidad Tobago, Mobile Application development, Trinidad Tobago app development, Trinidad Tobago SEO, Trinidad, Tobago, Denzil Doyle, TnT, Developer, Dev, Apsolute, mobile, graphic design, CSS, HTML, PHP.">
         <meta name="author" content="Denzil Doyle">
 
   		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
