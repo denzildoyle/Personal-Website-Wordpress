@@ -212,7 +212,7 @@ header.single-page {
     margin-left: 10px;
 }
 
-.list a:visited p, .list a:visited h3{
+.list a:visited p, .list a:visited h3, .list a:visited .line-arrow{
     color: #609;
 }
 
