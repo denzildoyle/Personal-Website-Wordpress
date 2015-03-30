@@ -202,7 +202,16 @@ header.single-page {
 .list a{
     margin-bottom: 20px;
     display: block;
+    -webkit-transition: ease-out .5s;
+    -moz-transition: ease-out .5s;
+    -o-transition: ease-out .5s;
+    transition: ease-out .5s;
 }
+
+.list a:hover{
+    margin-left: 10px;
+}
+
 .list a:visited p, .list a:visited h3{
     color: #609;
 }
@@ -225,7 +234,6 @@ header.single-page {
     text-decoration: none;
 }
 .page a p:hover{
-    text-decoration: underline;
     cursor: pointer;
 }
 .page img{
