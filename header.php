@@ -7,6 +7,7 @@
         <link rel="author" href="https://plus.google.com/u/0/+DenzilDoyle/posts"/>
 
         <meta name="viewport" content="width=device-width">
+        <meta name="p:domain_verify" content="ecc1754b93b4b08e1971911aed86aec8"/>
 
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follow" />

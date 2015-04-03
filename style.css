@@ -14,35 +14,54 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,900,800,700,600,300,500,200,100);
 
-* { font-family: 'Lato', 'sans-serif'; }
+*{
+    font-family: 'Lato', 'sans-serif';
+}
 
-html, body {
+html, body{
     width: 100%;
     height: 100%;
 }
-::selection {
-  background: #D9C6F5; /* WebKit/Blink Browsers */
-}
-::-moz-selection {
-  background: #D9C6F5; /* Gecko Browsers */
-}
-h1,h2,h3,h4,h5,h6,p { color: #333; }
-em{ color: #F17D0D; font-style: normal; }
-em a{ font-weight: 400; color: #F17D0D; }
-a { color: #700993; }
-a:hover, .small a:hover { cursor: pointer; color: #4D0465; text-decoration: none; }
-a:focus{ color: #700993; text-decoration: none; }
 
-p {
+h1,h2,h3,h4,h5,h6,p{
+    color: #333;
+}
+
+em{
+    color: #F17D0D;
+    font-style: normal;
+}
+
+a{
+    color: #F17D0D;
+    font-weight: 300;
+}
+
+a:hover, .small a:hover{
+    color: #B25905;
+    text-decoration: none;
+}
+
+a, a:hover, a:focus, a:visited{
+    cursor: pointer;
+}
+
+p,li{
     line-height: 28px;
     font-size: 18px;
     font-weight: 300;
     color: #2c2c2c;
 }
+
+p,ul{
+    margin-bottom: 30px;
+}
+
 .tweet-container{
     margin-top: 70px;
     margin-bottom: 70px;
 }
+
 .tweet {
     text-align: center;
     font-style: italic;
@@ -185,6 +204,10 @@ header.single-page {
 .page .intro{
     margin-bottom: 50px;
 }
+.page p{
+    display: inline-block;
+    margin-bottom: 0;
+}
 .page h1{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -226,9 +249,6 @@ header.single-page {
 .line-arrow{
     color: #555;
     font-weight: 200;
-    display: inline;
-}
-.page p{
     display: inline;
 }
 .page a:hover{
@@ -735,13 +755,24 @@ figure.effect-lily:hover p {
 }
 
 .tags{
+    margin: 60px -8px 0 -8px;
+    margin-top: 60px;
     padding: 0;
 }
+
 .tags li{
     list-style: none;
     float: left;
-    margin-right: 10px;
+    margin: 5px 8px;
     text-transform: uppercase;
+    background-color: #1D1824;
+    border-radius: 3px;
+    padding: 0 14px;
+}
+.tags li a{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
 }
 
 .bio .mobile{ display: none; }

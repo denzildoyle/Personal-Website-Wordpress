@@ -5,7 +5,7 @@
 			<div class="layer">
 				<div class="title">
 		    		<div class="container">
-		    			<div class="col-md-8 col-md-offset-2 col-xs-12">
+		    			<div class="col-md-12">
 					        <h1><?php echo get_the_title(); ?></h1>
 				    	</div>
 		    		</div>
@@ -16,7 +16,7 @@
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<div class="content-area container ">
-			<article  class="col-md-12 page" id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+			<article  class="col-md-12" id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 				<?php the_content(); ?>
 				<?php the_tags('<ul class="tags"><li>','</li><li>','</li></ul>'); ?>
 			</article>
