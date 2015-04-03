@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-	<header class="single-page" style="background-image: url('')">
+	<header class="single-page" style="background-image: url('<?php bloginfo("template_url"); ?>/img/achive-bg.jpg')">
 		<div class="layer">
 			<div class="title">
 	    		<div class="container">
