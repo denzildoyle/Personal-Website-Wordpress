@@ -47,14 +47,14 @@ a, a:hover, a:focus, a:visited{
 }
 
 p,li{
-    line-height: 28px;
     font-size: 18px;
     font-weight: 300;
     color: #2c2c2c;
 }
 
-p,ul{
+article p, article ul{
     margin-bottom: 30px;
+    line-height: 28px;
 }
 
 .tweet-container{
@@ -524,7 +524,6 @@ footer p {
 }
 
 .email {
-    margin-top: 20px;
     font-size: 40px;
     font-weight: 400px;
     color: #F17D0D;
@@ -683,6 +682,7 @@ i:hover { color: #fff; }
 }
 
 .grid figure p {
+    margin-top: 5px;
     letter-spacing: 1px;
     font-size: 68.5%;
 }

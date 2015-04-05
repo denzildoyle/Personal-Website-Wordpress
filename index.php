@@ -38,7 +38,7 @@
             </figure>
         </a>
 
-        <a class="col-md-6 clear grid" href="https://www.grahamtt.azurewebsites.net">
+        <a class="col-md-6 clear grid" href="grahamtt.azurewebsites.net">
             <figure class="effect-lily">
                 <img src="<?php bloginfo('template_url'); ?>/img/projects/graham-trainer-website.jpg" class="center-block img-responsive" alt="graham the trainer website">
                 <figcaption>
