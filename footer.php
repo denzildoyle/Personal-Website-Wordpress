@@ -1,21 +1,20 @@
-        <footer>
-            <div class="layer">
+        <footer class="section gray">
                 <div class="container">
-                    <div class="col-md-8">
-                        <div class=" social-icons">
-                            <a href="https://dribbble.com/DenzilDoyle"><i class="icon-dribbble"></i></a>
-                            <a href="https://twitter.com/DenzilDoyle"><i class="icon-twitter-squared"></i></a>
-                            <a href="https://www.facebook.com/Doyley3"><i class="icon-facebook-squared"></i></a>
-                            <a href="http://www.linkedin.com/profile/view?id=117638015&trk=spm_pic"><i class="icon-linkedin-squared"></i></a>
-                            <a href="https://github.com/denzildoyle"><i class="icon-github-squared"></i></a>
-                            <a href="http://instagram.com/denzildoyle"><i class="icon-instagramm"></i></a>
-                        </div>
-                        <h1>Get in touch with me</h1>
-                        <p>Always willing to help or chat about web design and development. Just drop me a line and I will get back to you as soon as possible.</p>
-                        <a href="mailto:doyle.d@apsolute-tt.com" class="email pull-left">yell@denzildoyle.me</a>
+                    <div class="col-md-6 col-md-offset-3">
+                        <h2 class="heading text-center">Get in touch</h2>
+                        <p class="sub-heading text-center">Always willing to help or chat about web design and development. Just drop me a line and I will get back to you as soon as possible.</p>
+                        <ul class="social-icons">
+                            <li><a href="https://dribbble.com/DenzilDoyle"><i class="icon-dribbble"></i></a></li>
+                            <li><a href="https://twitter.com/DenzilDoyle"><i class="icon-twitter-squared"></i></a></li>
+                            <li><a href="https://www.facebook.com/Doyley3"><i class="icon-facebook-squared"></i></a></li>
+                            <li><a href="http://www.linkedin.com/profile/view?id=117638015&trk=spm_pic"><i class="icon-linkedin-squared"></i></a></li>
+                            <li><a href="https://github.com/denzildoyle"><i class="icon-github-squared"></i></a></li>
+                            <li><a href="http://instagram.com/denzildoyle"><i class="icon-instagramm"></i></a></li>
+                        </ul>
+                        <a href="mailto:doyle.d@apsolute-tt.com" class="email text-center">yell@denzildoyle.me</a>
                     </div>
+
                 </div>
-            </div>
         </footer>
 
         <!-- JavaScript plugins comes here -->
