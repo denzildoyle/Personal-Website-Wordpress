@@ -23,15 +23,17 @@ html, body{
     height: 100%;
 }
 
-h1,h2,h3,h4,h5,h6,p{
-    color: #333;
-}
 h1,h2,h3,h4,h5,h6{
     font-weight: bold;
+    color: #333;
+}
+p{
+    line-height: 1.3em;
 }
 h1{
     font-size: 50px;
 }
+
 h2{
     font-size: 40px;
 }
@@ -85,7 +87,7 @@ article p, article ul{
     font-family: "fontawesome";
     font-style: normal;
     content: '\e804';
-    color: #aaa;
+    color: #1DADEB;
 }
 
 .tweet a:hover{
@@ -112,13 +114,18 @@ article p, article ul{
 }
 .section{
     padding: 50px 0 70px 0;
+    display: block;
+    overflow: auto;
 }
 .heading{
     color: #F17D0D;
 }
 .sub-heading{
     color: #5A5A5A;
-    text-align: center;
+}
+
+.project-row{
+    margin-top: 40px;
 }
 
 header h1, header h2, header h4, header h5, header h6 {
@@ -339,10 +346,6 @@ blockquote p {
     color: #666;
     font-style: italic;
     font-family: 'Lato', 'sans-serif';
-}
-.heading {
-    text-align: center;
-    padding: 0 20px;
 }
 
 .share-btns {
