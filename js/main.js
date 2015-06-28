@@ -145,8 +145,8 @@ $(function() {
 	    get: 'user',
 	    userId: 14494070,
 	    accessToken: '14494070.467ede5.d689abdddf494b5a8525d7e6f020a668',
-	    template: '<a href="{{link}}"><img class="col-md-1 col-xs-4 clear" src="{{image}}" /></a>',
-	    limit: 24,
+	    template: '<a href="{{link}}" class="col-md-2 col-xs-6"><img src="{{image}}" /></a>',
+	    limit: 6,
 	    resolution: 'standard_resolution'
 	});
 	userFeed.run();

@@ -87,7 +87,9 @@
     </div>
 
     <div class="row clear">
-        <div class="col-md-12 clear">
+        <div class="col-md-12 section gray">
+            <h2 class="heading">Instagram</h2>
+            <p class="sub-heading">Follow me on Instagram @denzildoyle</p>
             <div id="instafeed"></div>
         </div>
     </div>

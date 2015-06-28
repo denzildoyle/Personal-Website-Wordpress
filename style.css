@@ -26,6 +26,15 @@ html, body{
 h1,h2,h3,h4,h5,h6,p{
     color: #333;
 }
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
 
 em{
     color: #F17D0D;
@@ -97,6 +106,20 @@ article p, article ul{
 .clear { padding: 0; }
 .clear-fix { clear: both; }
 .small { font-size: 14px; }
+
+.gray{
+    background-color: #FCFCFC;
+}
+.section{
+    padding: 50px 0 70px 0;
+}
+.heading{
+    color: #F17D0D;
+}
+.sub-heading{
+    color: #5A5A5A;
+    text-align: center;
+}
 
 header h1, header h2, header h4, header h5, header h6 {
     color: #fff;
@@ -303,11 +326,6 @@ header .logo{
     background-size: cover;
 }
 
-header h1 {
-    font-size: 55px;
-    font-weight: 300;
-}
-
 .content-area { margin-top: 70px; margin-bottom: 70px; }
 
 blockquote {
@@ -325,10 +343,6 @@ blockquote p {
 .heading {
     text-align: center;
     padding: 0 20px;
-}
-
-.heading h1 {
-    color: #333;
 }
 
 .share-btns {
@@ -577,8 +591,13 @@ i:hover { color: #fff; }
 }
 
 #instafeed {
-    margin: 0;
-    padding: 0;
+    margin-top: 70px;
+}
+
+#instafeed img{
+    width: 100%;
+    display: block;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.24), 0px 1px 3px 0px rgba(0,0,0,0.12);
 }
 
 .instragram-link {
