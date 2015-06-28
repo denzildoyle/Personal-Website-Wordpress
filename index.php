@@ -49,7 +49,7 @@
                     <img src="<?php bloginfo('template_url'); ?>/img/projects/location-scout.jpg" class="center-block img-responsive" alt="location scout website">
                 </a>
                 <h2>Location Scout</h2>
-                <p>Windows phone 8 application designed &amp; developed</p>
+                <p>Windows phone 8 application design &amp; development</p>
             </div>
 
             <div class="col-md-6">
