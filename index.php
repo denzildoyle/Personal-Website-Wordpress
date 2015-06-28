@@ -1,7 +1,7 @@
 <?php get_header(); ?>
     <header class="main-page">
         <div class="layer">
-            <div class="container bio">
+            <div class="col-md-10 col-md-offset-1 bio">
                 <div class="col-md-8">
                     <div>
                         <h6><em>Designer &amp; Developer</em></h6>
